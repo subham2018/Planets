@@ -1,0 +1,49 @@
+ /* ThemeColor One */
+.constructit-color,.constructit-colorhover:hover,.constructit-strip-info li i,.constructit-classic-btn,.constructit-banner-text-two h1,
+.constructit-counter i,.constructit-service-grid i,.constructit-fancy-title h6,.constructit-fancy-title span i,.constructit-testimonial-text i,
+.constructit-team-modern figure figcaption span,.constructit-team-social li:hover a,.constructit-blog-heading time,.constructit-blog-option li a:hover,
+.constructit-blog-list ul li:hover .constructit-blog-list-text h6 a,.star-rating-box:before,.constructit-newslatter-text h2 span,
+.widget-about-info li i,.widget_footer_links ul li:hover a,.popular-post-option li,.popular-post-option li a,.widget_popular_post figure a i,
+.constructit-copyright p a,.constructit-breadcrumb ul li.active,.constructit-social-tag a:hover,.constructit-admin-post-text span,
+.constructit-related-blog-text span,.text-holder .post-date,.widget_search form label:before,.widget_recent_post time,.widget-popular-product-text small,
+.widget_recent_comment ul li > a,.widget_cetagories ul li:hover a,.constructit-blog-grid-text > span,.widget_sort_cetagories ul li:hover a,
+.constructit-shop-summery > span,.constructit-related-shop-text > span,.constructit-shop-filter .nav-tabs li a,.constructit-shop-list-text > span,
+.constructit-team-detail span,.constructit-team-option li,.constructit-team-option li a,.constructit-team-grid-text span,blockquote:before,
+.constructit-team-list-text span,.constructit-aboutus-view figure a i,.constructit-service-modern-text i,.constructit-serch-text h3,
+.constructit-priceplan > ul > li.active .constructit-price-wrap h3,.constructit-priceplan > ul > li.active .constructit-price-text a,
+.constructit-price-text h2 small,.constructit-faq-accordion .panel-title > .collapsed:before,.constructit-faq-accordion .panel-title > a:after {
+    color: #DA212F;
+}
+.constructit-bgcolor,.constructit-bgcolorhover:hover,.navbar-nav > li.active > a,.navbar-nav > li:hover > a,.constructit-user-list li a span,
+.constructit-banner-text h1:before,.constructit-banner .slick-dots li.slick-active button,.constructit-banner .slick-dots li.slick-active button:before,
+.constructit-filterable ul li a,.constructit-blog ul li:hover .constructit-fancy-btn,.constructit-blog-list figure a i,.constructit-shop-grid figure a i,
+.widget-footer-title:before,.widget-footer-title:after,.popular-post-option li:before,.constructit-prev-post:before,.constructit-next-post:before,
+.constructit-section-heading:before,.constructit-section-heading:after,.constructit-related-blog figure a i,.submit input[type="submit"]:hover,
+.constructit-widget-heading:before,.constructit-widget-heading:after,.constructit-blog-grid figure a i,.constructit-detail-btn:before,
+.constructit-pagination > ul > li > .previous,.constructit-pagination > ul > li > .next,.constructit-blog-large figure a i,.ui-slider .ui-slider-range,
+.constructit-project-medium figure figcaption:before,.constructit-shop-tabs .nav-tabs li a,.constructit-related-shop figure a i,
+.widget_sort_cetagories a:after,.constructit-shop ul li:hover .constructit-fancy-btn,.constructit-team-experience ul li span,
+.constructit-team ul li:hover .constructit-fancy-btn,.constructit-serch-text form label input[type="submit"],.constructit-compare-btn:hover,
+.constructit-priceplan > ul > li.active .constructit-price-wrap,.constructit-price-wrap h3,.constructit-price-wrap h3:after,
+.constructit-price-text a,.constructit-error-text a,.constructit-number-select .constructit-fancy-btn:hover,
+.constructit-contact-form label input[type="submit"]:hover {
+    background-image: linear-gradient(to bottom, #DF0000, #840003);
+}
+.constructit-classic-btn,.constructit-testimonial-list-layer.slick-slide.slick-current.slick-active span,.widget_sort_cetagories a:before,
+.constructit-images-list-layer.slick-slide.slick-current.slick-active span,#slider-range span,.constructit-team-experience ul li span:before,
+.constructit-team-experience ul li span:after,.constructit-section-post .constructit-simple-btn,.constructit-error-text a,
+.constructit-compare-btn:hover {
+    border-color: #DA212F;
+}
+blockquote {
+	border-left-color: #DA212F;
+}
+ {
+	border-right-color: #DA212F;
+}
+{
+	border-top-color: #DA212F;
+}
+.constructit-modern-project-text,.constructit-project-grid figure {
+	border-bottom-color: #DA212F;
+}
