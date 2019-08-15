@@ -1,0 +1,324 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+	.menu.active { width: 260px;}
+	.menu,  .menu > ul ul { margin: 0; max-height: 0; overflow: hidden;}
+	span.has-subnav,a.menu-link { display: block;}
+	.sub-menu li a { background-color: #fff;}
+	.navbar { z-index: 999; border-radius: 0px; position: absolute; background-color: #fff; border-top: none; border-bottom: none; left: 0px; top: 122px; margin: 0px;}
+	a.menu-link { text-align: left; float: left; font-weight: bold; font-size: 22px; line-height: 2.2;}
+	a.menu-link span { margin: 28px 30px 18px 0px; }
+	#constructive-header .collapse { display: block; } #constructive-header .collapse.in { display: block; } .constructive-thumbnail { margin-bottom: 0px; }
+	.navbar-nav { margin: 0px; padding-top: 10px; float: left; text-align: left; } .navbar-nav > li > a:before { display: none; }
+	.navbar-nav .sub-menu { margin: 0px; float: left; width: 100%; position: relative; opacity: 1; visibility: visible; background-color: transparent; top: 0; }
+	.navbar-nav .sub-menu {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.navbar-nav .sub-menu .sub-menu { left: 0px;}
+	.navbar .navbar-collapse { padding: 0px;}
+	.navbar-nav > li > a { float: left; width: 100%; padding: 20px 20px 22px 20px; color: #555555; line-height: 14px;}
+	.navbar-nav > li { width: 100%; float: left; margin: 0px;}
+	.sub-menu .sub-menu { left: 0px;}
+	.navbar-nav > li { padding: 0px;}
+	.navbar-nav > li:first-child { padding-left: 0px;}
+	/* Main Grid */
+	.constructive-main-content .col-md-4,.constructive-main-content .col-md-3 { float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; }
+	.constructive-main-content .col-md-7,.constructive-main-content .col-md-5 { width: 100%; float: left; margin-bottom: 0px; }
+	.col-md-12 { float: left; width: 100%; }
+	/*header*/
+	.logo-shape::before { display: none;}
+	.constructit-strip-info li { margin: 0px 15px 0px 0px;}
+	.logo { text-align: center;}
+	.constructit-error-pagefull { background-image: none;}
+	.constructit-error-wrap { width: 100%;}
+	.constructit-error-wrap h2 { left: 50%; margin: 0px 0px 0px -242px;}
+	.constructit-footer-widget .widget { float: none; display: inline-block; margin-right: -4px; vertical-align: top; width: 50%;}
+	.constructit-newslatter-form form { width: 300px; margin: 40px 0px 0px;}
+	.widget_about_us .logo { text-align: left;}
+	.modal-dialog { width: 700px;}
+	.constructit-banner-text h1 { width: 100%;}
+	.constructit-banner-text p { width: 65%;}
+	.constructit-blog > ul > li,.constructit-service > ul > li { float: none; display: inline-block; margin-right: -4px; vertical-align: top; width: 50%;}
+	.constructit-team > ul > li,.constructit-project > ul > li { float: left; width: 50%;}
+	.constructit-modern-project ul li:hover .constructit-modern-project-text { padding: 20px 20px 37px;}
+	.constructit-blog.constructit-blog-large > ul > li,.constructit-blog.constructit-blog-list > ul > li { width: 100%;}
+	.constructit-thumb { display: none;}
+	.constructit-testimonial-slide { margin: 0px 0px 30px;}
+	.constructit-team.constructit-team-modern > ul > li,.constructit-shop > ul > li { width: 33.333%;}
+	.constructit-twitter-feedfull { background-image: none;}
+	.constructit-shop-grid figure figcaption::before { width: 100%; left: 0px;}
+	.constructit-shop-grid figure figcaption { padding-left: 7px;}
+	.constructit-filterable ul li a { width: 120px;}
+	.constructit-about-thumb { display: none;}
+	.constructit-prev-post, .constructit-next-post { padding: 12px 20px;}
+	.constructit-main-content aside.col-md-3 { width: 100%;}
+	.constructit-main-content .widget { width: 50%; padding: 0px 10px;}
+	.constructit-contact-form { padding: 49px 40px 22px;}
+	.constructit-contact-info ul li { width: 50%;}
+	.constructit-contact-info .widget-footer-social { float: left; width: auto; padding-top: 0px;}
+	.constructit-priceplan > ul > li { width: 50%;}
+	.thumb { display: none;}
+	.constructit-section-post p { width: 67%;}
+	.constructit-related-shop-text { padding: 24px 15px 0px;}
+	.constructit-related-shop ul li:hover .constructit-related-shop-text { padding: 24px 15px 23px;}
+	.constructit-related-shop .star-rating { width: 32%;}
+	.constructit-shop-wrap aside.col-md-6 { float: left; width: 50%;}
+	.constructit-compare-btn { margin: 0px 17px 25px 0px;}
+	.constructit-shop-summery .star-rating { width: 20%;}
+	.constructit-shop-filter > span { width: 100%; text-align: center; margin: 0px 0px 10px;}
+	.constructit-shop.constructit-shop-list > ul > li,.constructit-team.constructit-team-list > ul > li { width: 100%;}
+	.constructit-shop-list-text .star-rating { width: 17%;}
+	.constructit-team-subheader aside.col-md-4 { float: left; width: 33.33333333%;}
+	.constructit-team-subheader aside.col-md-8 { width: 66.66666667%; float: left;}
+	.constructit-team-detail { padding: 0px;}
+	.skillst { width: 50%; padding: 0px 10px;}
+	.constructit-team-list figure ~ .constructit-team-list-text { padding: 15px 30px 0px 20px;}
+	.constructit-shop-wrap { margin: 0px 0px 50px;}
+	.constructit-banner .slick-arrow { right: 40px; left: auto;}
+	.constructit-transparent-shape { width: 100%;}
+	.constructit-banner .slick-dots { right: 45px; left: auto;}
+	.constructit-banner-thumb { display: none !important;}
+	.constructit-team-modern-text { padding: 50px 20px; margin: 0px 0px -155px;}
+
+
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.menu.active { width: 260px;}
+	.menu,  .menu > ul ul { margin: 0; max-height: 0; overflow: hidden;}
+	span.has-subnav,a.menu-link { display: block;}
+	.sub-menu li a { background-color: #fff;}
+	.navbar { z-index: 999; border-radius: 0px; position: absolute; background-color: #fff; border-top: none; border-bottom: none; left: 0px; top: 122px; margin: 0px;}
+	a.menu-link { text-align: left; float: left; font-weight: bold; font-size: 22px; line-height: 2.2;}
+	a.menu-link span { margin: 28px 30px 18px 0px; }
+	#constructive-header .collapse { display: block; } #constructive-header .collapse.in { display: block; } .constructive-thumbnail { margin-bottom: 0px; }
+	.navbar-nav { margin: 0px; padding-top: 10px; float: left; text-align: left; } .navbar-nav > li > a:before { display: none; }
+	.navbar-nav .sub-menu { margin: 0px; float: left; width: 100%; position: relative; opacity: 1; visibility: visible; background-color: transparent; top: 0; }
+	.navbar-nav .sub-menu {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.navbar-nav .sub-menu .sub-menu { left: 0px;}
+	.navbar .navbar-collapse { padding: 0px;}
+	.navbar-nav > li > a { float: left; width: 100%; padding: 20px 20px 22px 20px; color: #555555; line-height: 14px;}
+	.navbar-nav > li { width: 100%; float: left; margin: 0px;}
+	.sub-menu .sub-menu { left: 0px;}
+	.navbar-nav > li { padding: 0px;}
+	.navbar-nav > li:first-child { padding-left: 0px;}
+	/* Main Grid */
+	.constructive-main-content .col-md-4,.constructive-main-content .col-md-3{ float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; }
+	.constructive-main-content .col-md-7,.constructive-main-content .col-md-5 { width: 100%; float: left; margin-bottom: 0px; }
+	.col-md-12 { float: left; width: 100%; }
+	/*Main Grid*/
+	.constructit-top-strip,.logo { text-align: center;}
+	.constructit-strip-info { width: 100%; margin: 20px 0px 20px;}
+	.constructit-strip-info li,.constructit-simple-btn { display: inline-block; float: none;}
+	.constructit-simple-btn { margin: 0px;}
+	.logo-shape:before { display: none;}
+	.constructit-close-btn { right: 50%; margin: 0px -50px 0px 0px;}
+	.constructit-user-list li { margin: 22px 0px 10px 39px;}
+	.constructit-error-pagefull { background-image: none;}
+	.constructit-error-text { padding: 78px 30px 80px;}
+	.constructit-newslatter-text,.constructit-newslatter-form,.constructit-newslatter-form form { width: 100%;}
+	.constructit-newslatter { padding: 33px 30px 38px;}
+	.widget_about_us .logo { text-align: left;}
+	.constructit-error-wrap { width: 100%;}
+	.constructit-error-wrap h2 { top: 5%; left: 50%; margin: 0 0 0 -220px;}
+	.constructit-footer-widget .widget { float: none; display: inline-block; margin-right: -4px; vertical-align: top; width: 50%;}
+	.constructit-copyright::before { content: none;}
+	.constructit-error-wrap h2 { font-size: 230px;}
+	.widget_footer_links ul li a { padding: 0px 0px 0px 15px; font-size: 13px;}
+	.widget_footer_links ul li:hover a { padding: 0px 0px 0px 20px;}
+	.widget_popular_post figure ~ .widget-popular-post-text { padding: 0px 0px 0px 90px;}
+	.constructit-banner-caption,.constructit-thumb { display: none;}
+	.constructit-counter > ul > li,.constructit-project > ul > li { float: left; width: 50%;}
+	.constructit-testimonial-slide { margin: 0px 0px 30px;}
+	.constructit-blog-list figure { width: 100%;}
+	.constructit-blog > ul > li,.constructit-service > ul > li,.constructit-team > ul > li { float: none; display: inline-block; margin-right: -4px; vertical-align: top; width: 50%;}
+	.constructit-blog-list figure ~ .constructit-blog-list-text { float: left; margin: 0px; padding: 20px 0px 0px;}
+	.constructit-shop-gridfull { overflow: hidden;}
+	.constructit-blog.constructit-blog-large > ul > li { width: 100%;}
+	.constructit-twitter-feedfull { background-image: none;}
+	.constructit-blog.constructit-latest-blog > ul > li { margin-right: -4px;}
+	.constructit-shop > ul > li { width: 50%;}
+	.constructit-shop-grid figure figcaption::before { width: 100%; left: 0px;}
+	.constructit-modern-project figure figcaption { padding: 10px;}
+	.constructit-modern-project ul li:hover .constructit-modern-project-text { padding: 15px 15px 15px;}
+	.constructit-modern-project-text { padding: 19px 15px 34px;}
+	.constructit-about-progress ul li { width: 50%; margin: 0px 0px 30px;}
+	blockquote { padding: 30px 40px;}
+	.comment-list .children { padding: 0px;}
+	.constructit-blog-social { float: right; width: 45%;}
+	.constructit-social-tag { width: 55%;}
+	.constructit-social-tag a { margin: 3px 12px 0px 0px;}
+	.constructit-prev-post, .constructit-next-post { width: 50%; padding: 12px;}
+	.constructit-next-post { margin: 0px -5px 0px 0px;}
+	.constructit-prev-post { margin: 0px 0px 0px -5px;}
+	.constructit-main-content aside.col-md-3 { float: left; width: 100%;}
+	.constructit-main-content .widget { width: 50%; padding: 0px 10px;}
+	.constructit-contact-form { padding: 49px 30px 22px;}
+	.constructit-priceplan > ul > li,.constructit-circle-skills ul li { width: 50%;}
+	.constructit-subheader-two { padding: 292px 0px 76px;}
+	.constructit-subheader-two-text h1 { font-size: 32px;}
+	.constructit-project-grid figure figcaption { padding: 14px 15px 0px;}
+	.constructit-project-grid figure figcaption span { margin: 0px 0px 30px;}
+	.constructit-project-grid ul li:hover figure figcaption span { margin: 0px 0px 15px;}
+	.constructit-project-grid figure figcaption span {
+		-webkit-transition: all 0.4s ease-in-out;
+		   -moz-transition: all 0.4s ease-in-out;
+		    -ms-transition: all 0.4s ease-in-out;
+		     -o-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+	}
+	.constructit-project-grid figure figcaption h5 { font-size: 16px;}
+	.constructit-project.constructit-project-medium > ul > li { width: 100%;}
+	.thumb { display: none;}
+	.constructit-serch-text::before { left: 150px;}
+	.constructit-serch-text { padding: 70px 30px 76px;}
+	.constructit-section-post p { width: 100%;}
+	.constructit-service-modern-text i { margin: 0px 13px 21px 0px;}
+	.constructit-service-modern-text h5 { font-size: 15px;}
+	.constructit-shop-thumb-list { margin: 0px 0px 50px;}
+	.constructit-shop-filter { text-align: center;}
+	.constructit-shop-filter > span,.constructit-shop-filter form label,#slider-range,.constructit-shop-filter .nav-tabs li,
+	.constructit-shop-filter form input[type="text"],.constructit-search-select { display: inline-block; float: none;}
+	.constructit-shop-filter form ul li,.constructit-shop-filter .nav-tabs,.constructit-shop-list figure { width: 100%;}
+	.constructit-shop-filter form ul li { margin: 0 0 10px;}
+	.constructit-search-select,.constructit-shop-filter > span { margin: 0px 0px 10px;}
+	.star-rating { width: 28%;}
+	.constructit-shop-list figure ~ .constructit-shop-list-text { float: left; margin: 0px; padding: 0px 20px 30px;}
+	.constructit-shop-list-text .star-rating { width: 35%;}
+	.constructit-team-detail .constructit-blog-social { width: auto; }
+	.constructit-team-list figure ~ .constructit-team-list-text { float: left; margin: 0px; }
+	.constructit-shop-wrap { margin: 0px 0px 50px;}
+	.constructit-banner .slick-arrow,.constructit-banner .slick-dots { display: none !important;}
+
+
+}
+
+/* Media 300Px Start */
+@media (max-width: 480px) {
+/*main grid*/
+	.constructive-main-content .col-md-4,.constructive-main-content .col-md-3,.constructive-main-content .col-md-6 { margin-right: 0px; width: 100%; }
+	/*main grid*/
+	.constructit-cart-box { width: 230px;}
+	.constructit-error-wrap h2 { font-size: 148px;}
+	.widget_popular_post figure ~ .widget-popular-post-text { padding: 0px 0px 0px 95px;}
+	.popular-post-option li { margin: 0px 11px 0px 0px;}
+	.popular-post-option li::before { right: -6px;}
+	.constructit-strip-info li { margin: 0px 5px;}
+	.constructit-error-wrap h2 { top: 30%; left: 0%; margin: 0px;}
+	.constructit-error-text { padding: 78px 20px 80px;}
+	.constructit-footer-widget .widget { width: 100%;}
+	.constructit-banner .slick-arrow { margin: -55px 0px 0px;}
+	.constructit-banner .slick-arrow.slick-arrow-right { margin: 22px 0px 0px;}
+	.constructit-counter > ul > li,.constructit-team > ul > li { width: 100%;}
+	.constructit-filterable ul li a { width: 147px;}
+	.constructit-testimonial-text { padding: 93px 20px 25px;}
+	.constructit-blog > ul > li,.constructit-service > ul > li,.constructit-shop > ul > li,.constructit-project > ul > li { width: 100%;}
+	.constructit-modern-project ul li:hover .constructit-modern-project-text { padding: 15px 20px 15px;}
+	.constructit-aboutus-view > ul > li { width: 33.333%;}
+	.constructit-about-progress ul li { width: 100%;}
+	.constructit-prev-post, .constructit-next-post { padding: 12px 22px;}
+	.constructit-social-tag, .constructit-blog-social { width: 100%;}
+	.constructit-post-tags,.constructit-blog-social { text-align: center;}
+	.constructit-social-tag { margin: 0px 0px 15px;}
+	.constructit-social-tag a,.constructit-social-tag span,.constructit-blog-social ul { float: none; display: inline-block;}
+	.constructit-admin-post figure ~ .constructit-admin-post-text { float: left; padding: 20px 0px 0px;}
+	.comment-list figure ~ .text-holder { margin: 0px; float: left; padding: 20px 0px 0px;}
+	.comment-reply-link { right: -10px; top: -5px;}
+	.comment-respond form p { width: 100%;}
+	.constructit-social-tag a { margin: 3px 15px 0px 0px;}
+	.constructit-prev-post, .constructit-next-post { width: auto;}
+	.constructit-main-content .widget { float: none; display: inline-block; margin-right: -4px; vertical-align: top; width: 100%; padding: 0px;}
+	.constructit-blog-option li { margin: 0px 9px 0px 0px;}
+	.constructit-blog-option li::before { right: -5px;}
+	.constructit-pagination > ul > li { margin: 0 3px 0 0;}
+	.constructit-blog-heading time ~ .constructit-blog-option { margin: 0px;}
+	.constructit-contact-form { padding: 49px 20px 22px;}
+	.constructit-contact-form form ul li { width: 100%;}
+	.constructit-contact-info { padding: 90px 25px 89px 25px;}
+	.constructit-contact-info ul li,.constructit-priceplan > ul > li,.constructit-circle-skills ul li,
+	.constructit-project-description > ul > li { width: 100%;}
+	.constructit-priceplan > ul > li.active { margin-top: 0px;}
+	.constructit-subheader-two-text h1 { font-size: 26px;}
+	.project-description-social h6 { margin: 3px 0px 0px;}
+	.widget-footer-social li { margin: 0px 6px 0px 0px;}
+	.constructit-subheader-two { padding: 310px 0px 76px;}
+	.constructit-project-grid figure figcaption span { margin: 0px 0px 15px;}
+	.constructit-project-grid figure figcaption { padding: 22px 25px 0px;}
+	.constructit-project-grid ul li:hover figure figcaption { margin: 0px 0px -90px;}
+	.constructit-project-grid figure figcaption h5 { font-size: 18px;}
+	.constructit-serch-text { padding: 70px 20px 76px;}
+	.constructit-serch-text::before { left: 15px;}
+	.widget_footer_links ul li a { font-size: 14px;}
+	.constructit-service-modern-text h5 { font-size: 16px;}
+	.constructit-shop-summery .star-rating { width: 26%;}
+	.constructit-number-select input[type="number"] { margin: 0px 9px 0px 0px;}
+	.constructit-shop-tabs .nav-tabs li a { width: 145px;}
+	.star-rating { width: 24%;}
+	.constructit-shop-list-text .star-rating { width: 26%;}
+	.constructit-team-option li { margin: 0px 18px 0px 0px;}
+	.constructit-team-contact ul li,.constructit-prev-post, .constructit-next-post { width: 100%;}
+	.constructit-next-post { margin: 0px;}
+	.constructit-prev-post { margin: 0px 0px 10px;}
+
+	
+
+
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+	.navbar-nav > li { margin: 0px 2px;}
+	.navbar-nav > li > a { padding: 25px 10px 25px;}
+	.constructit-error-pagefull { background-position: -299% bottom;}
+	.constructit-newslatter-text { width: 55%;}
+	.navbar-nav .sub-menu { width: 174px;}
+	.widget_footer_links ul li a { padding: 0px 0px 0px 15px;}
+	.widget_footer_links ul li:hover a { padding: 0px 0px 0px 20px;}
+	.widget-about-info li { padding: 0px 0px 0px 31px;}
+	.widget_popular_post figure ~ .widget-popular-post-text { padding: 0px 0px 0px 93px;}
+	.constructit-banner-caption .col-md-6 { width: 61%;}
+	.constructit-banner-text h1 { width: 73%;}
+	.constructit-banner-text-two { padding-left: 40px;}
+	.constructit-modern-project figure figcaption { padding: 20px;}
+	.constructit-modern-project ul li:hover .constructit-modern-project-text { padding: 12px 20px 37px;}
+	.constructit-thumb { display: none;}
+	.constructit-latest-blog .constructit-blog-option li:last-child { margin: 0px;}
+	.constructit-blog-list figure ~ .constructit-blog-list-text { padding: 6px 0px 0px 15px;}
+	.constructit-latest-blog .constructit-blog-option li { margin: 0px 9px 0px 0px;}
+	.constructit-blog-option li::before { right: -5px;}
+	.constructit-twitter-feedfull { padding: 27px 0px 27px;}
+	.constructit-shop-grid figure figcaption { padding: 27px 16px 21px;}
+	.constructit-shop-grid figure figcaption::before { width: 168px;}
+	.star-rating { width: 30%;}
+	.constructit-about-thumb { margin: 0px;}
+	.constructit-prev-post, .constructit-next-post { padding: 12px 20px;}
+	.constructit-contact-info { padding: 50px 28px 40px 33px;}
+	.constructit-project-description > ul > li span { width: 100%;}
+	.constructit-project-grid figure figcaption { padding: 22px 25px 0px;}
+	.constructit-project-grid ul li:hover figure figcaption { margin: 0px 0px -92px;}
+	.thumb { right: 0px;}
+	.constructit-team-modern-text { padding: 50px 18px; margin: 0px 0px -155px;}
+	.constructit-serch-text { padding: 70px 60px 76px;}
+	.constructit-service-modern-text h5 { font-size: 16px;}
+	.constructit-related-shop-text { padding: 24px 12px 0px;}
+	.constructit-related-shop ul li:hover .constructit-related-shop-text { padding: 24px 12px 23px;}
+	.constructit-related-shop .star-rating { width: 32%;}
+	.constructit-shop-filter > span { width: 100%; text-align: center; margin: 0px 0px 10px;}
+	.constructit-shop-list-text .star-rating { width: 17%;}
+	.constructit-team-grid-text { padding: 26px 11px 18px;}
+	.constructit-team-list figure ~ .constructit-team-list-text { padding: 15px 4px 0px 20px;}
+	.navbar-nav .sub-menu li a { padding: 13px 14px;}
+	.constructit-related-blog-text h6 { font-size: 15px;}
+	.constructit-shop-wrap { margin: 0px 0px 50px;}
+	.constructit-transparent-shape { width: 57%;}
+}
