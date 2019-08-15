@@ -1,2 +1,0 @@
-# Planets
-First Git Project
